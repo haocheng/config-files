@@ -29,7 +29,7 @@ ZSH_THEME="sunrise"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git battery gradle mercurial mvn svn vundle)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
