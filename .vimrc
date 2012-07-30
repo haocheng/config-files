@@ -2,12 +2,13 @@ set ai
 set nu
 set guifont=DroidSans\ 10
 set guifontwide=DroidSansFallback\ 10
-colorscheme ir_black
+colorscheme solarized
+set background=dark
 set wrap
 set nobackup
 set cpoptions+=$
 syntax on
-set t_Co=256
+set t_Co=16
 set softtabstop=4
 set shiftwidth=4
 set hidden
@@ -33,15 +34,14 @@ runtime macros/matchit.vim
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-
 " let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
 
 
 " My Bundles here:
-""
-"" original repos on github
+"  "
+"   " original repos on github
 Bundle 'tpope/vim-fugitive'
 
 filetype plugin indent on     " required!
