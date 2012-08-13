@@ -1,7 +1,5 @@
 set ai
 set nu
-set guifont=DroidSans\ 10
-set guifontwide=DroidSansFallback\ 10
 colorscheme solarized
 set background=dark
 set wrap
