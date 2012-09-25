@@ -35,7 +35,9 @@ source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
 # Customize to your needs...
-export PATH=/usr/lib/jvm/java-7-sun/bin:/home/haocheng/data/develop/typesafe-stack/bin:/opt/sbt-dir:/home/haocheng/data/develop/ant/bin:/home/haocheng/data/develop/maven3/bin:/home/haocheng/data/develop/android-sdk-linux_x86/platform-tools:/home/haocheng/data/develop/android-sdk-linux_x86/tools:/home/haocheng/.nvm:/home/haocheng/.nvm/v0.6.6/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:TERM=xterm-256color
+export PATH=/usr/lib/jvm/java-7-sun/bin:/home/haocheng/data/develop/typesafe-stack/bin:/opt/sbt-dir:/home/haocheng/data/develop/ant/bin:/home/haocheng/data/develop/maven3/bin:/home/haocheng/data/develop/android-sdk-linux_x86/platform-tools:/home/haocheng/data/develop/android-sdk-linux_x86/tools:/home/haocheng/.nvm:/home/haocheng/.nvm/v0.6.6/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/haocheng/data/develop/sbt/bin
+
+export TERM=xterm-256color
 
 ## for dircolors
 eval `dircolors ~/.dir_colors`
