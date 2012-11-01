@@ -1,6 +1,11 @@
 [user]
 	name = haocheng
 	email = haocheng.lee@gmail.com
+[alias]
+	st = status
+        lsd = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+
 [diff]
 	tool = diffmerge
 

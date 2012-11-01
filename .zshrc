@@ -10,6 +10,7 @@ ZSH_THEME="blinks"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias gitShowTagByDate="git log --tags --simplify-by-decoration --pretty=\"format:%ai %d\""
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
