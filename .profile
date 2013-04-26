@@ -13,6 +13,7 @@ export JAVA_HOME=/usr/lib/jvm/java-7-sun
 export TYPESAFE_HOME=/home/haocheng/data/develop/typesafe-stack
 export SBT_HOME=/opt/sbt-dir
 export ANDROID_HOME=/home/haocheng/data/develop/android-sdk-linux_x86
+export VAGRANT_HOME=/home/haocheng/data/app/vagrant/vagrant.d
 
 ANT_HOME=/home/haocheng/data/develop/ant
 M2_HOME=/home/haocheng/data/develop/maven3
