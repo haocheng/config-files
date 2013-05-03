@@ -22,7 +22,9 @@ NODEJS_HOME=/home/haocheng/.nvm/v0.6.6
 
 export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
 export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$NVM_HOME:$NODEJS_HOME/bin:$PATH
+export PATH="$HOME/.rbenv/bin:$PATH"
 
+eval "$(rbenv init -)"
 
 # if running bash
 if [ -n "$BASH_VERSION" ]; then
@@ -40,3 +42,5 @@ export LANGUAGE="zh_TW:en"
 export LC_MESSAGES="zh_TW.UTF-8"
 export LC_CTYPE="zh_TW.UTF-8"
 export LC_COLLATE="zh_TW.UTF-8"
+
+
