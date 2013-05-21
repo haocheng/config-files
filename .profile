@@ -23,7 +23,7 @@ NODEJS_HOME=/home/haocheng/.nvm/v0.6.6
 GRADLE_HOME=/home/haocheng/data/develop/gradle
 
 export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
-export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$GRADLE_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools:$NVM_HOME:$NODEJS_HOME/bin:$PATH
+export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$GRADLE_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools/17.0.0:$NVM_HOME:$NODEJS_HOME/bin:$PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
