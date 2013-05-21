@@ -14,6 +14,7 @@ export TYPESAFE_HOME=/home/haocheng/data/develop/typesafe-stack
 export SBT_HOME=/opt/sbt-dir
 export ANDROID_HOME=/home/haocheng/data/develop/android-sdk-linux_x86
 export VAGRANT_HOME=/home/haocheng/data/app/vagrant/vagrant.d
+export GRADLE_USER_HOME=/home/haocheng/data/develop/gradle-home
 
 ANT_HOME=/home/haocheng/data/develop/ant
 M2_HOME=/home/haocheng/data/develop/maven3
@@ -22,7 +23,7 @@ NODEJS_HOME=/home/haocheng/.nvm/v0.6.6
 GRADLE_HOME=/home/haocheng/data/develop/gradle
 
 export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
-export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$GRADLE_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$NVM_HOME:$NODEJS_HOME/bin:$PATH
+export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$GRADLE_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools:$NVM_HOME:$NODEJS_HOME/bin:$PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 
 eval "$(rbenv init -)"
