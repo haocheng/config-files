@@ -5,6 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+#ZSH_THEME="fishy"
 ZSH_THEME="blinks"
 
 # Example aliases
@@ -35,8 +36,23 @@ plugins=(git battery gradle mercurial mvn svn vundle)
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
 
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+export LESS=" -R "
+
+export JAVA_HOME=/usr/lib/jvm/java-7
+export GRADLE_HOME=/home/haocheng/develop/gradle
+export TYPESAFE_HOME=/home/haocheng/develop/typesafe-stack
+export ANDROID_HOME=/home/haocheng/develop/android-sdk-linux_x86
+export VAGRANT_HOME=/home/haocheng/app/vagrant/vagrant.d
+export ANT_HOME=/home/haocheng/develop/ant
+export M2_HOME=/home/haocheng/develop/maven3
+export GRADLE_USER_HOME=/home/haocheng/develop/gradle-home
+export SBT_HOME=/home/haocheng/develop/sbt
+
+export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
+
 # Customize to your needs...
-export PATH=/usr/lib/jvm/java-7-sun/bin:/home/haocheng/data/develop/typesafe-stack/bin:/opt/sbt-dir:/home/haocheng/data/develop/ant/bin:/home/haocheng/data/develop/maven3/bin:/home/haocheng/data/develop/android-sdk-linux_x86/platform-tools:/home/haocheng/data/develop/android-sdk-linux_x86/tools:/home/haocheng/.nvm:/home/haocheng/.nvm/v0.6.6/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/haocheng/data/develop/sbt/bin
+export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:/opt/sbt-dir:$ANT_HOME/bin:$M2_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$SBT_HOME/bin:$GRADLE_HOME/bin
 
 export TERM=xterm-256color
 

@@ -10,17 +10,15 @@
 
 ##export JAVA_HOME=/usr/lib/jvm/java-6-sun
 export JAVA_HOME=/usr/lib/jvm/java-7-sun
-export TYPESAFE_HOME=/home/haocheng/data/develop/typesafe-stack
-export SBT_HOME=/opt/sbt-dir
-export ANDROID_HOME=/home/haocheng/data/develop/android-sdk-linux_x86
-export VAGRANT_HOME=/home/haocheng/data/app/vagrant/vagrant.d
-export GRADLE_USER_HOME=/home/haocheng/data/develop/gradle-home
+export TYPESAFE_HOME=/home/haocheng/develop/typesafe-stack
+export SBT_HOME=/home/haocheng/sbt
+export ANDROID_HOME=/home/haocheng/develop/android-sdk-linux_x86
+export VAGRANT_HOME=/home/haocheng/app/vagrant/vagrant.d
+export GRADLE_USER_HOME=/home/haocheng/develop/gradle-home
 
-ANT_HOME=/home/haocheng/data/develop/ant
-M2_HOME=/home/haocheng/data/develop/maven3
-NVM_HOME=/home/haocheng/.nvm
-NODEJS_HOME=/home/haocheng/.nvm/v0.6.6
-GRADLE_HOME=/home/haocheng/data/develop/gradle
+ANT_HOME=/home/haocheng/develop/ant
+M2_HOME=/home/haocheng/develop/maven3
+GRADLE_HOME=/home/haocheng/develop/gradle
 
 export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
 export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:$SBT_HOME:$ANT_HOME/bin:$M2_HOME/bin:$GRADLE_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/build-tools/17.0.0:$NVM_HOME:$NODEJS_HOME/bin:$PATH

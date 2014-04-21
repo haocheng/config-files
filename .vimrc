@@ -1,12 +1,19 @@
 set ai
 set nu
-colorscheme solarized
+set guifont=SourceCodePro\ 10
+"set guifont=UbuntuMono\ 10
+set guifontwide=DroidSansFallback\ 10
+
+set t_Co=16
 set background=dark
+"let g:solarized_termcolors=16
+"colorscheme solarized
+colorscheme ir_black
 set wrap
 set nobackup
 set cpoptions+=$
 syntax on
-set t_Co=16
+
 set softtabstop=4
 set shiftwidth=4
 set hidden
@@ -31,6 +38,7 @@ runtime macros/matchit.vim
 " for vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+
 
 " let Vundle manage Vundle
 " required! 
