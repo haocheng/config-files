@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="3511" name="Solarized Dark" modified="2011-09-15 17:59:36" author="Luke Hoersten" website="http://ethanschoonover.com/solarized">
+    <searchResultIndication color="#073642" />
+    <filteredSearchResultIndication color="#073642" />
+    <occurrenceIndication color="#073642" />
+    <writeOccurrenceIndication color="#073642" />
+    <findScope color="#073642" />
+    <deletionIndication color="#839496" />
+    <sourceHoverBackground color="#073642" />
+    <singleLineComment color="#586E75" italic="true" />
+    <multiLineComment color="#586E75" italic="true" />
+    <commentTaskTag color="#657B83" italic="true" />
+    <javadoc color="#586E75" italic="false" />
+    <javadocLink color="#657B83" italic="false" underline="true" strikethrough="false" />
+    <javadocTag color="#657B83" italic="false" />
+    <javadocKeyword color="#657B83" italic="false" />
+    <class color="#CB4B16" bold="false" underline="false" strikethrough="false" />
+    <interface color="#839496" />
+    <method color="#839496" />
+    <methodDeclaration color="#839496" />
+    <bracket color="#839496" />
+    <number color="#2AA198" />
+    <string color="#2AA198" />
+    <operator color="#839496" />
+    <keyword color="#B58900" bold="false" />
+    <annotation color="#DC322F" />
+    <staticMethod color="#839496" />
+    <localVariable color="#839496" />
+    <localVariableDeclaration color="#839496" />
+    <field color="#268BD2" />
+    <staticField color="#268BD2" />
+    <staticFinalField color="#268BD2" />
+    <deprecatedMember color="#839496" underline="false" strikethrough="true" />
+    <enum color="#CB4B16" />
+    <inheritedMethod color="#839496" />
+    <abstractMethod color="#839496" />
+    <parameterVariable color="#839496" />
+    <typeArgument color="#839496" />
+    <typeParameter color="#839496" />
+    <constant color="#839496" />
+    <background color="#002B36" />
+    <currentLine color="#073642" />
+    <foreground color="#839496" />
+    <lineNumber color="#586E75" />
+    <selectionBackground color="#586E75" />
+    <selectionForeground color="#002B36" />
+</colorTheme>
