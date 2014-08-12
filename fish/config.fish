@@ -15,7 +15,7 @@ set fish_plugins tmux
 ## set env variables
 set JAVA_HOME /usr/lib/jvm/java-8
 set GRADLE_HOME ~/develop/gradle
-set ANDROID_HOME ~/develop/android-sdk-linux-x86
+set ANDROID_HOME ~/develop/android-sdk-linux_x86
 set ANT_HOME ~/develop/ant
 set M2_HOME ~/develop/maven3
 set GRADLE_USER_HOME ~/develop/gradle-home
