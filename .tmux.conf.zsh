@@ -59,8 +59,7 @@ set-window-option -g aggressive-resize on
 # BUG: Should *not* hardcode /bin/bash here
 set -g terminal-overrides 'xterm*:smcup@:rmcup@'
 ## set -g default-command /bin/bash
-## comment the following line if use fish shell
-##set-option -g default-shell /bin/zsh
+set-option -g default-shell /bin/zsh
 set -g status-bg black
 set -g status-fg white
 set -g status-interval 1
