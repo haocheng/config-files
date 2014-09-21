@@ -41,18 +41,18 @@ export LESS=" -R "
 
 export JAVA_HOME=/usr/lib/jvm/java-7
 export GRADLE_HOME=/home/haocheng/develop/gradle
-export TYPESAFE_HOME=/home/haocheng/develop/typesafe-stack
 export ANDROID_HOME=/home/haocheng/develop/android-sdk-linux_x86
 export VAGRANT_HOME=/home/haocheng/app/vagrant/vagrant.d
 export ANT_HOME=/home/haocheng/develop/ant
 export M2_HOME=/home/haocheng/develop/maven3
 export GRADLE_USER_HOME=/home/haocheng/develop/gradle-home
 export SBT_HOME=/home/haocheng/develop/sbt
+export DART_SDK=/home/haocheng/develop/dart/dart-sdk
 
 export MAVEN_OPTS="-Xmx256m -XX:MaxPermSize=128m"
 
 # Customize to your needs...
-export PATH=$JAVA_HOME/bin:$TYPESAFE_HOME/bin:/opt/sbt-dir:$ANT_HOME/bin:$M2_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$SBT_HOME/bin:$GRADLE_HOME/bin
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$M2_HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$SBT_HOME/bin:$GRADLE_HOME/bin:$DART_SDK/bin
 
 export TERM=xterm-256color
 
