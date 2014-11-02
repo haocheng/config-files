@@ -14,6 +14,8 @@ set nobackup
 set cpoptions+=$
 syntax on
 
+"fix deletion problems
+set backspace=indent,eol,start
 set softtabstop=4
 set shiftwidth=4
 set hidden
